@@ -1,0 +1,34 @@
+.product-list {
+  padding: 20px;
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: var(--card-bg);
+}
+
+.filter-buttons {
+  margin-bottom: 10px;
+}
+
+.filter-buttons button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--button-bg);
+  color: var(--button-text);
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+
+.like-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+}

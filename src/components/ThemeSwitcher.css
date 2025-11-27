@@ -1,0 +1,40 @@
+.theme-switcher {
+  padding: 20px;
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: var(--card-bg);
+  color: var(--text);
+}
+
+.theme-button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: var(--button-bg);
+  color: var(--button-text);
+}
+
+.theme-button:hover {
+  opacity: 0.9;
+}
+
+body.light {
+  --bg: #f8f8f8;
+  --text: #333;
+  --card-bg: #ffffff;
+  --border: #ccc;
+  --button-bg: #007bff;
+  --button-text: #fff;
+}
+
+body.dark {
+  --bg: #181818;
+  --text: #f5f5f5;
+  --card-bg: #222;
+  --border: #444;
+  --button-bg: #444;
+  --button-text: #fff;
+}

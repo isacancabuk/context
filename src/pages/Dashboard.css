@@ -1,0 +1,13 @@
+.dashboard {
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: var(--text);
+}
+
+.dashboard h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+}
